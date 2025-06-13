@@ -24,7 +24,7 @@ class DataIngestion:
         try:
             from google.oauth2 import service_account
             credentials = service_account.Credentials.from_service_account_file(
-                'hotel-reservation-prediction-f8cca0d2a4fe.json'
+                'hotel-reservation-prediction-12f32e914e17.json'
             )
             client = storage.Client(credentials=credentials)
             bucket = client.bucket(self.bucket_name)
