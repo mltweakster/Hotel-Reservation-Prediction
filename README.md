@@ -2,9 +2,10 @@
 
 ## 📌 Overview
 
-The **Hotel Reservation Prediction** project is a machine learning system that forecasts whether a hotel booking will be canceled. It enables better inventory planning, reduces revenue leakage, and supports intelligent overbooking strategies.
+The **Hotel Reservation Prediction** project is a machine learning system that forecasts whether a hotel booking will be canceled.  
+It enables better inventory planning, reduces revenue leakage, and supports intelligent overbooking strategies.
 
-> 🔗 **Live App URL**: (https://hrp-552900362680.us-central1.run.app/)
+> 🔗 **[Live App URL](https://hrp-552900362680.us-central1.run.app/)**
 
 ---
 
@@ -26,22 +27,7 @@ The **Hotel Reservation Prediction** project is a machine learning system that f
 
 The model was trained and tracked using **MLflow** with the following metrics and hyperparameters:
 
-### 🔹 Metrics
-- **Accuracy**: `0.8787`
-- **F1 Score**: `0.8811`
-- **Precision**: `0.8636`
-- **Recall**: `0.8994`
-
-### 🔹 Hyperparameters (LightGBM)
-- `max_depth`: 23  
-- `num_leaves`: 94  
-- `learning_rate`: 0.129  
-- `n_estimators`: 314  
-- `min_child_samples`: 20  
-- `class_weight`: None  
-- `subsample`: 1.0  
-
-![MLflow Experiment Run](./mlflow%20exp.png)
+![MLflow Experiment Run](./research/mlflow-exp.png)
 
 ---
 
@@ -60,7 +46,7 @@ This project is integrated with a **CI/CD pipeline** using Jenkins:
 - ✅ Automated builds and deployment with success history  
 - 🚀 Final build `#6` successfully deployed the app  
 
-![Jenkins Pipeline](./jenkins-cicd.png)
+![Jenkins Pipeline](./research/jenkins-cicd.png)
 
 ---
 
@@ -71,5 +57,8 @@ This project is integrated with a **CI/CD pipeline** using Jenkins:
 - ☁️ **Cloud-native, Serverless Deployment**
 - 📦 **Portable, Dockerized App**
 - 🔁 **Reproducible Experiments via MLflow**
+
+
+> ![Flask App Prediction](./research/flask-app.png)
 
 ---
