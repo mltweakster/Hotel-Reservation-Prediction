@@ -1,9 +1,8 @@
-# 🏨 Hotel Reservation Prediction – End-to-End ML Deployment using Jenkins and Google Cloud
+# 🏨 Hotel Reservation Prediction – End-to-End ML Deployment using Jenkins and Google Cloud Run
 
 ## 📌 Overview
 
-The **Hotel Reservation Prediction** project is a machine learning system that forecasts whether a hotel booking will be canceled.  
-It enables better inventory planning, reduces revenue leakage, and supports intelligent overbooking strategies.
+The **Hotel Reservation Prediction** project is a machine learning system that forecasts whether a hotel booking will be canceled. It enables better inventory planning, reduces revenue leakage, and supports intelligent overbooking strategies.
 
 > 🔗 **[Live App URL](https://hrp-552900362680.us-central1.run.app/)**
 
@@ -44,7 +43,7 @@ This project is integrated with a **CI/CD pipeline** using Jenkins:
 
 ### 🔹 Status
 - ✅ Automated builds and deployment with success history  
-- 🚀 Final build `#6` successfully deployed the app  
+- 🚀 Final build successfully deployed the app
 
 ![Jenkins Pipeline](./research/jenkins-cicd.png)
 
